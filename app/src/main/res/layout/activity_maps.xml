@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80cbc4"
+    android:weightSum="1">
+
+
+
+    <fragment xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:layout_weight="1.01"
+        tools:context="com.example.tontan.roruea.MapUserActivity" />
+
+    <TextView
+        android:text="เวลาระหว่าง เรือ - ท่าเรือ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txview"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_light_pressed" />
+
+    <TextView
+        android:text="0 นาที"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtime"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="?attr/actionModeSplitBackground" />
+
+    <Button
+        android:text="คลิกเพื่อดูเวลา"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bttime"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:background="@color/red" />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:onClick="clearAllMarker"
+        android:text="กลับสู่หน้าเลือกเส้นทาง"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+</LinearLayout>

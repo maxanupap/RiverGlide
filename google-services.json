@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "446946271325",
+    "firebase_url": "https://sixth-drive-216905.firebaseio.com",
+    "project_id": "sixth-drive-216905",
+    "storage_bucket": "sixth-drive-216905.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446946271325:android:744edfef1d3ebf7c",
+        "android_client_info": {
+          "package_name": "com.max.hello"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446946271325-c1mfnrhdv2r24tbdkb0e175dl224c2t3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.max.hello",
+            "certificate_hash": "620585d7017a14103baeac0ff6d427047461cdd8"
+          }
+        },
+        {
+          "client_id": "446946271325-psgo5a6e18sifvv6v0pvp953mbcdqvvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTfyQl7Bekzh8Z2sQVovsgmdRpUfR-cDQ"
+        },
+        {
+          "current_key": "AIzaSyBTfyQl7Bekzh8Z2sQVovsgmdRpUfR-cDQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446946271325-psgo5a6e18sifvv6v0pvp953mbcdqvvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
